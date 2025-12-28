@@ -1,4 +1,3 @@
-
 package com.example.forcegauge
 
 import android.os.Bundle
@@ -11,6 +10,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.forcegauge.screens.BluetoothScanScreen
 import com.example.forcegauge.screens.BluetoothViewModel
 import com.example.forcegauge.screens.ForceGaugeScreen
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
